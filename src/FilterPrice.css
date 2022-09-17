@@ -1,0 +1,31 @@
+.FilterPrice{
+    max-width: 1100px;
+    height: 800px;
+    
+    margin: 0 auto;
+}
+.Filter-input{
+    max-width: 300px;
+    height: auto;
+   margin: 15px auto;
+ background-color: white;
+ border: 1px solid deepskyblue;
+ display: flex;
+ align-items: center;
+
+}
+#Filter{
+    width: 83%;
+    height: 35px;
+    outline: none;
+    padding: 0px 10px;
+    border: none;
+    font-size: 17px;
+    border-radius: 2px;
+}
+.filter-icon{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+

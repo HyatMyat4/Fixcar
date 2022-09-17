@@ -1,0 +1,33 @@
+.Resualt{
+    width: 520px;
+    margin: 0 auto;
+    height: auto;
+    position: absolute;
+    z-index: 5;    
+    left: 253px;
+    background-color: black;
+    margin-top: 5px;
+}
+.Resualt-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+
+
+}
+.Resualt-img{
+    width: 105px;
+    height: auto;
+ 
+}
+.carName2{
+    margin-left: 15px;
+   
+   
+}
+.Resualt-container:hover{
+    background-color: deepskyblue;
+    color: black;
+}

@@ -1,0 +1,371 @@
+.PopularSportCar{
+ max-width: 1100px;   
+height: auto;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.Popular-Container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+border-bottom: 4px solid white;
+}
+.Popula-left{
+    width: 50%;
+    height: auto;
+  
+}
+.Popula-Right{
+    width: 50%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   user-select: none;
+}
+.Car-Name-Header{
+  
+    width: 80%;
+    display: block;
+   color:  red;
+}
+.h2-header{
+    font-size: 25px;
+    display: block;
+    background: linear-gradient(81.84deg, #e100ff -9.4%, #33ebff 51.57%, #ff5280 84.07%, #de0e15 90.59%);
+    -webkit-background-clip: text;
+    color: transparent;    
+}
+.Question{
+    color: gold;
+   font-weight: 400;
+   font-size: 23px;
+   margin-bottom: 15px;
+}
+.Answer{   
+    color: aqua;
+    margin-bottom: 15px;
+}
+.Question-Price{
+    color: gold;  
+    font-weight: bold;
+    font-size: 32px;
+    display: block;
+}
+.Answer-Price{   
+    color: greenyellow;    
+}
+.only-This-info{
+    background: linear-gradient(81.84deg, #fff200 -9.4%, #ff3333 51.57%, #ff5280 84.07%, #61f4ff 90.59%);
+    -webkit-background-clip: text;
+    color: transparent;    
+   font-size: 17px;
+
+}
+.car-img{
+    width: 100%;    
+    margin-bottom: 40px;
+}
+.car-img-container{
+   max-width: 600px;
+    height: auto;
+}
+.react-container{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.love-heart{
+    font-size: 25px;
+    cursor: pointer;   
+    color: red;
+    margin: 10px;
+}
+.Star{
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;    
+ color: gold;
+}
+.count-Love{
+    color: #ff3333ac;
+}
+.count-star{
+   color: rgba(255, 217, 0, 0.614);
+}
+.car-logo-container{
+ width: 100px ; 
+
+}
+.car-logo{
+    width: 100%;
+   
+   
+}
+@media(max-width : 1499px ) { 
+    .Resualt{
+        width: 450px;
+        height: auto;
+        position: absolute;
+        z-index: 5;
+        left: 290px;
+        
+    }
+
+
+}
+@media(max-width : 1480px) {   
+    .Header{
+        width: 100%;
+        position: static;
+        
+    }
+    .Header-Container{
+        width: 100%;
+        height: 63px;
+     
+       
+    }
+    .Resualt{
+        width: 450px;
+        height: auto;
+        position: absolute;
+        z-index: 5;
+        left: 110px;
+        
+    }
+
+}
+
+@media(max-width : 1112px ) {
+    .Log-in-father{
+        display: none;
+       }
+    .Top-Page-Name{
+       display: none;
+    }
+    .line-3{
+        display: inline;
+     }
+     .Header-input{
+        width: 500px;
+      }
+      .Resualt{
+        width: 450px;
+        height: auto;
+        position: absolute;
+        z-index: 5;
+        left: 230px;
+        
+    }
+
+}
+
+@media(max-width : 1177px) {
+    .Popular-Container{
+      max-width: 603px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    border-bottom: 3px solid white;
+    
+    }
+    .Popula-left{
+        width: 100%;
+        
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+        user-select: none;
+    }
+    .Popula-Right{
+        width: 100%;
+        height: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;       
+       user-select: none;
+    
+    }
+
+}
+@media(max-width : 1022px) {
+ 
+    .Resualt{
+      width: 450px;
+      height: auto;
+      position: absolute;
+      z-index: 5;
+      left: 180px;
+      
+  }
+}
+@media(max-width : 910px) {
+ 
+    .Resualt{
+      width: 450px;
+      height: auto;
+      position: absolute;
+      z-index: 5;
+      left: 140px;
+      
+  }
+}
+
+@media(max-width : 790px) {
+   .Resualt{
+    width: 450px;
+    height: auto;
+    position: absolute;
+    z-index: 5;
+    left: 110px;
+    
+}
+ 
+}
+@media(max-width : 675px) {
+    .Resualt{
+     width: 450px;
+     height: auto;
+     position: absolute;
+     z-index: 5;
+     left: 80px;
+     
+ }
+  
+ }
+ @media(max-width : 590px){
+    .Resualt{
+        width: 450px;
+        height: auto;
+        position: absolute;
+        z-index: 5;
+        left: 60px;
+        
+    }
+ }
+@media(max-width : 550px) {
+    .Header-Container{
+        width: 100vw;
+      
+    }
+  
+  
+}
+@media(max-width : 540px) {
+ 
+    .Resualt{
+      width: 450px;
+      height: auto;
+      position: absolute;
+      z-index: 5;
+      left: 25px;
+      
+  }
+}
+@media(max-width : 500px) {
+    .Question{     
+       font-size: 20px;   
+      
+    }
+    .Answer{   
+        font-size: 20px;
+        
+    }
+    .Car-Name-Header{
+        font-size: 30px;
+        width: 99%;
+        border: 1px dashed white;
+    }
+    .Question-Price{
+font-size: 27px;
+    }
+  .Resualt{
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    z-index: 5;
+    left: 0px;
+    
+}
+.Header-Container2{
+    margin-right: 0px;
+    
+}
+.Dark-light{
+    margin-left: 7px;
+}
+.line{
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 5px;
+
+}
+.Header-img{
+    width: 80px;
+    height: auto;
+    margin-right: 5px;
+}
+.icon-moon{
+    padding: 4px 10px;
+      background-color: white;
+      border-radius: 3px;
+      border: 2px solid gray;
+   font-size: 20px;
+   color: black;
+  }
+  .light{
+    padding: 4px 9px;
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid gray;
+    font-size: 20px;
+    color: black;
+}
+
+}
+@media(max-width : 280px) {
+    .Dark-light{
+        margin-left: 7px;
+        display: none;
+    }
+   .search-icon{
+    display: none;
+   }
+
+}
+/*Popular-Container{
+    width: 55%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+border-bottom: 3px solid white;
+
+}
+.Popula-left{
+    width: 100%;
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        
+    user-select: none;
+}
+.Popula-Right{
+    width: 100%;
+    height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;       
+   user-select: none;
+
+}*/
